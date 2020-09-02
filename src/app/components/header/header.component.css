@@ -1,0 +1,83 @@
+.main-header {
+    /* background-color: rgb(196, 195, 195); */
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(223, 223, 223);
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+}
+
+.nav{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+}
+
+li {
+    margin: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    cursor: pointer;
+}
+
+.home{
+    position: relative;
+    background-image: url("../../../assets/images/background-image1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    height: 100vh;
+    
+}
+
+.contain {
+    padding-top: 4%;
+}
+
+.portfolio, .service, .about-me, .news {
+    display: flex;
+    position: relative;
+    margin-left: 1%;
+    margin-right: 1%;
+    
+    border-radius: 2%;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(241, 241, 241);
+    color: black;
+    text-align: center;
+}
+
+.portfolio {
+    height: 900px;
+}
+
+.service{
+    height: 750px;
+}
+
+.about-me {
+    height: 850px;
+}
+
+
+.footer{
+    background: black;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 2;
+    box-shadow: 5px 5px 5px 5px black;
+}

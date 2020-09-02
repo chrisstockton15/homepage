@@ -1,0 +1,33 @@
+<header class="main-header">
+	<div class="navbar">
+		<ul class="nav">
+			<li (click)="toHome()" routerLinkActive="active">Home</li>
+			<li (click)="toPortfolio()" routerLinkActive="active">Portfolio</li>
+			<li (click)="toAboutMe()" routerLinkActive="active">About Me</li>
+			<li (click)="toService()" routerLinkActive="active">Service</li>
+		</ul>
+	</div>
+	<div class="home" id="home">
+		<app-home></app-home>
+	</div>
+	<div class="contain" id="portfolio">
+		<div class="portfolio">
+			<app-professional-image></app-professional-image>
+		</div>
+	</div>
+	
+	<div class="contain" id="about-me">
+		<div class="about-me" >
+			<app-about-me></app-about-me>
+		</div>
+	</div>
+	<div class="contain" id="service">
+		<div class="service">
+			<app-service></app-service>
+		</div>
+	</div>
+	<div class="footer">
+		<app-footer></app-footer>
+	</div>
+	<div style="height: 70px;"></div>
+</header>
